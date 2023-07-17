@@ -1,0 +1,25 @@
+{
+  "service_name": "",
+  "restart_alert_name": "restart alert name",
+  "apm_service": {
+    "name": "",
+    "url": ""
+  },
+  "database": {
+    "client": "mongodb",
+    "expense_tracker": {
+      "client": "mongodb",
+      "connection": {
+        "host": "localhost",
+        "port": "27017",
+        "user": "",
+        "password": "",
+        "name": ""
+      }
+    }
+  },
+  "server": {
+    "port": 3000
+  }
+  
+}
